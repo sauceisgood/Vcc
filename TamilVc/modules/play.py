@@ -593,7 +593,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/DOGEDRINKS")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -682,7 +682,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/dogedrinks")],
             ]
             )
             requested_by = message.from_user.first_name
@@ -836,7 +836,7 @@ async def ytplay(_, message: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),      
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/DOGEDRINKS")],
             ]
     )
     requested_by = message.from_user.first_name
@@ -975,7 +975,7 @@ async def deezer(client: Client, message_: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/DOGEDRINKS")],
             ]
     )
     file_path = await convert(wget.download(url))
@@ -1110,7 +1110,8 @@ async def jiosaavn(client: Client, message_: Message):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/dogedrinks")], 
+                     
             ]
     )
     file_path = await convert(wget.download(slink))
@@ -1214,7 +1215,7 @@ async def lol_cb(b, cb):
                     InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
                     InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="🛸 DogeDrinks DJ 🛸", url=f"https://t.me/dogedrinks")],
             ]
     )
     requested_by = useer_name
