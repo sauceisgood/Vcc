@@ -13,8 +13,8 @@ def _start(client, message):
         reply_markup=InlineKeyboardMarkup([[
             InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("📲 Updates", url=f"https://t.me/TamilBots"), 
-            InlineKeyboardButton("💬 Support", url=f"https://t.me/TamilSupport")
+            InlineKeyboardButton("📲 Updates", url=f"https://t.me/dogedrinks"), 
+            InlineKeyboardButton("💬 Support", url=f"https://t.me/dogedrinks")
             ],[
             InlineKeyboardButton("🛠 Source Code 🛠", url=f"{SOURCE_CODE}")
           ]]
@@ -26,7 +26,7 @@ def _start(client, message):
 async def gstart(_, message: Message):
     await message.reply_text(
         f"""**🔴 {PROJECT_NAME} is online**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/TamilSupport")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/sauceisgood")]]),
     )
 
 
@@ -63,8 +63,8 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/TamilBots"),
-             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/TamilSupport")],
+            [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/dogedrinks"),
+             InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/dogedrinks")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
             [InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}")]
         ]
